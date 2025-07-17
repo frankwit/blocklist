@@ -58,3 +58,15 @@ sonos.com
 chainalysis.com
 blockchair.com
 etherscan.io
+swallow.apple.com
+guzzoni.apple.com      
+feedbackws.apple.com   
+feedback.apple.com     
+radar.apple.com        
+in.appcenter.ms        
+xp.apple.com           
+smp-device-content.apple.com
+stats.gc.apple.com    
+configuration.apple.com
+init.ess.apple.com
+gdmf.apple.com         
