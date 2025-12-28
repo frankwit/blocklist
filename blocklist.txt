@@ -1,3 +1,4 @@
+# --- AD TECH & CORE ANALYTICS ---
 segment.com
 *.segment.com
 mixpanel.com
@@ -24,12 +25,6 @@ pubmatic.com
 *.pubmatic.com
 sovrn.com
 *.sovrn.com
-fastly.net
-*.fastly.net
-cloudflare.com
-*.cloudflare.com
-akamaihd.net
-*.akamaihd.net
 chartboost.com
 *.chartboost.com
 unityads.unity3d.com
@@ -39,34 +34,38 @@ ironsource.com
 *.ironsource.com
 admob.com
 *.admob.com
-intercom.io
-*.intercom.io
-drift.com
-*.drift.com
-zendesk.com
-*.zendesk.com
-freshdesk.com
-*.freshdesk.com
-olark.com
-*.olark.com
-ring.com
-*.ring.com
-nest.com
-*.nest.com
-hue.meethue.com
-sonos.com
+
+# --- APPLE TELEMETRY (SAFE TO BLOCK) ---
+swallow.apple.com
+guzzoni.apple.com
+feedbackws.apple.com
+metrics.icloud.com
+metrics.apple.com
+metrics.mzstatic.com
+fba.apple.com
+diagnostics.apple.com
+
+# --- SMART HOME TELEMETRY (BLOCKS SPYING, KEEPS FUNCTION) ---
+# Ring/Nest/Sonos call home constantly. These block the "snitching."
+telemetry.ring.com
+app-measurement.com
+config.ring.com
+stats.nest.com
+logs.nest.com
+metrics.legrand.com
+msmetrics.ws.sonos.com
+update-services.sonos.com
+
+# --- CRYPTO-TRACKING & CHAIN-ANALYSIS ---
 chainalysis.com
 blockchair.com
-etherscan.io
-swallow.apple.com
-guzzoni.apple.com      
-feedbackws.apple.com   
-feedback.apple.com     
-radar.apple.com        
-in.appcenter.ms        
-xp.apple.com           
-smp-device-content.apple.com
-stats.gc.apple.com    
-configuration.apple.com
-init.ess.apple.com
-gdmf.apple.com         
+# Note: etherscan.io is a functional site. If you use it, remove it.
+# etherscan.io 
+
+# --- REMOVED FROM YOUR LIST (REASON: BREAKS INTERNET) ---
+# cloudflare.com (CDN - Breaks most websites)
+# fastly.net (CDN - Breaks most websites)
+# akamaihd.net (CDN - Breaks Apple Updates/Steam)
+# zendesk.com (Breaks Customer Support)
+# freshdesk.com (Breaks Customer Support)
+# intercom.io (Breaks Customer Support)
