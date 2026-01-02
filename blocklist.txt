@@ -69,3 +69,50 @@ blockchair.com
 # zendesk.com (Breaks Customer Support)
 # freshdesk.com (Breaks Customer Support)
 # intercom.io (Breaks Customer Support)
+# --- MICROSOFT CORE TELEMETRY ---
+# The main "Vortex" and "Asimov" telemetry engines.
+v10.vortex-win.data.microsoft.com
+v10.events.data.microsoft.com
+v20.events.data.microsoft.com
+settings-win.data.microsoft.com
+alpha.telemetry.microsoft.com
+oca.telemetry.microsoft.com
+diagnostics.support.microsoft.com
+telemetry.microsoft.com
+telemetry.remoteapp.windowsazure.com
+statsfe2.update.microsoft.com.akadns.net
+
+# --- WINDOWS 10/11 SPECIFIC TRACKING ---
+# These handle "Tailored Experiences" and "Advertising ID."
+choice.microsoft.com
+choice.microsoft.com.nsatc.net
+df.telemetry.microsoft.com
+reports.wes.df.telemetry.microsoft.com
+sqm.telemetry.microsoft.com
+sqm.telemetry.microsoft.com.nsatc.net
+watson.telemetry.microsoft.com
+
+# --- MICROSOFT ADS & BING TRACKING ---
+# Used for the Start Menu ads and Bing-powered search inside Windows.
+bingads.microsoft.com
+rads.msn.com
+preview.msn.com
+ads1.msn.com
+ads2.msn.com
+ad.doubleclick.net
+static.2p.bing.com
+
+# --- CORTANA & SEARCH TELEMETRY ---
+# Metadata sent when using the Windows search bar.
+g.msn.com
+feedback.search.microsoft.com
+feedback.windows.com
+
+# --- OPTIONAL: AGGRESSIVE (Might impact some features) ---
+# Uncomment to block the "is there internet" check (NCSI)
+msftncsi.com
+ipv6.msftncsi.com
+
+# Uncomment to block Office 365/Desktop telemetry (Breaks Office updates)
+officeclient.microsoft.com
+nexusrules.officeapps.live.com
